@@ -1,6 +1,5 @@
 .env*
 node_modules
-reports
 
 # Playwright
 /test-results/
@@ -8,3 +7,9 @@ reports
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Reports
+allure-results
+allure-report
+reports/
+

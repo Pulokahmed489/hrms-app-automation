@@ -18,6 +18,5 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
-
-  reporter: [['html', { outputFolder: 'reports/html-report' }]],
+  reporter: [['allure-playwright']],
 });
